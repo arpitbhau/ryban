@@ -76,5 +76,5 @@ function textEffect() {
 
 }
 
-
+sheryEffect()
 textEffect()
