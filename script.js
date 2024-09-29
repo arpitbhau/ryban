@@ -63,7 +63,7 @@ function textEffect() {
                 if (index !== 0) {
     
                     gsap.to(h1s[index], {
-                        y: "-=102%",
+                        y: "-=100%",
                         duration: .8,
                         ease: Expo.easeInOut ,
                         onComplete: function () {
