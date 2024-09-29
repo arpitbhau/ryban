@@ -51,7 +51,7 @@ function textEffect() {
     
                 gsap.to(h1s[index], {
                     y: "-=100%",
-                    duration: .8,
+                    duration: 1,
                     ease: Expo.easeInOut,
                     onComplete: function () {
                         gsap.set(this._targets[0], { top: "+=210%" })
@@ -64,7 +64,7 @@ function textEffect() {
     
                     gsap.to(h1s[index], {
                         y: "-=100%",
-                        duration: .8,
+                        duration: 1,
                         ease: Expo.easeInOut ,
                         onComplete: function () {
                             animating = false
@@ -75,7 +75,7 @@ function textEffect() {
     
                     gsap.to(h1s[index], {
                         y: "-=99%",
-                        duration: .8,
+                        duration: 1,
                         ease: Expo.easeInOut ,
                         onComplete: function () {
                             animating = false
